@@ -4,11 +4,12 @@ export const patternMap: PatternMap[] = [
     {
         entity: 'ac-vent',
         pattern: 'pattern-ACvent',
+        markerUrl: '../assets/patterns/pattern-ACvent.patt',
         model: {
             obj: 'Moon',
             mtl: 'Moon'
         }
-    },
+    }/* ,
     {
         entity: 'blinds',
         pattern: 'pattern-blinds',
@@ -24,15 +25,16 @@ export const patternMap: PatternMap[] = [
             obj: 'Moon',
             mtl: 'Moon'
         }
-    },
+    }*/,
     {
         entity: 'fire-panel',
         pattern: 'pattern-FirePanel',
+        markerUrl: '../assets/patterns/pattern-FirePanel.patt',
         model: {
             obj: 'Moon',
             mtl: 'Moon'
         }
-    },
+    }/*,
     {
         entity: 'fire-panel-controller',
         pattern: 'pattern-FirePanelController',
@@ -72,5 +74,5 @@ export const patternMap: PatternMap[] = [
             obj: 'Moon',
             mtl: 'Moon'
         }
-    }
+    } */
 ]

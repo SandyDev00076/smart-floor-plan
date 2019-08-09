@@ -8,8 +8,40 @@
   <button *ngIf="camera" class="btn btn-warning" (click)="endRecording()">End</button>
   <div class="cameraspace" *ngIf="camera">
     <a-scene embedded arjs="sourceType: webcam">
-      <a-marker *ngFor="let pattern of patternMap" type="pattern" preset="custom" url="getPatternPath(pattern.pattern);">
-        <a-entity [obj-model]="getObjectModelPath(pattern)">
+      <a-marker type="pattern" preset="custom" url="../assets/patterns/pattern-FirePanel.patt">
+        <a-entity obj-model="obj: url(../assets/models/Moon.obj); mtl: url(../assets/models/Moon.mtl)">
+        </a-entity>
+      </a-marker>
+      <a-marker type="pattern" preset="custom" url="../assets/patterns/pattern-LAN.patt">
+        <a-entity obj-model="obj: url(../assets/models/Moon.obj); mtl: url(../assets/models/Moon.mtl)">
+        </a-entity>
+      </a-marker>
+      <a-marker type="pattern" preset="custom" url="../assets/patterns/pattern-ACvent.patt">
+        <a-entity obj-model="obj: url(../assets/models/Moon.obj); mtl: url(../assets/models/Moon.mtl)">
+        </a-entity>
+      </a-marker>
+      <a-marker type="pattern" preset="custom" url="../assets/patterns/pattern-Blinds.patt">
+        <a-entity obj-model="obj: url(../assets/models/Moon.obj); mtl: url(../assets/models/Moon.mtl)">
+        </a-entity>
+      </a-marker>
+      <a-marker type="pattern" preset="custom" url="../assets/patterns/pattern-ElectricalWires.patt">
+        <a-entity obj-model="obj: url(../assets/models/Moon.obj); mtl: url(../assets/models/Moon.mtl)">
+        </a-entity>
+      </a-marker>
+      <a-marker type="pattern" preset="custom" url="../assets/patterns/pattern-FirePanelController.patt">
+        <a-entity obj-model="obj: url(../assets/models/Moon.obj); mtl: url(../assets/models/Moon.mtl)">
+        </a-entity>
+      </a-marker>
+      <a-marker type="pattern" preset="custom" url="../assets/patterns/pattern-Light.patt">
+        <a-entity obj-model="obj: url(../assets/models/Moon.obj); mtl: url(../assets/models/Moon.mtl)">
+        </a-entity>
+      </a-marker>
+      <a-marker type="pattern" preset="custom" url="../assets/patterns/pattern-LightSensor.patt">
+        <a-entity obj-model="obj: url(../assets/models/Moon.obj); mtl: url(../assets/models/Moon.mtl)">
+        </a-entity>
+      </a-marker>
+      <a-marker type="pattern" preset="custom" url="../assets/patterns/pattern-Sprinkler.patt">
+        <a-entity obj-model="obj: url(../assets/models/sprinkler.obj)">
         </a-entity>
       </a-marker>
       <a-entity camera></a-entity>

@@ -23,8 +23,8 @@ export class AppComponent {
     this.camera = false;
   }
 
-  getPatternPath(patternName: string) {
-    return `../assets/patterns/${patternName}.patt`;
+  getPatternUrl(pattern: PatternMap) {
+    return pattern.markerUrl;
   }
 
   getObjPath(objName: String) {
