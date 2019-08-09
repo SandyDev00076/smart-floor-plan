@@ -5,72 +5,72 @@ export const patternMap: PatternMap[] = [
         entity: 'ac-vent',
         pattern: 'pattern-ACvent',
         model: {
-            obj: '',
-            mtl: ''
+            obj: 'Moon',
+            mtl: 'Moon'
         }
     },
     {
         entity: 'blinds',
         pattern: 'pattern-blinds',
         model: {
-            obj: '',
-            mtl: ''
+            obj: 'Moon',
+            mtl: 'Moon'
         }
     },
     {
         entity: 'electrical-wires',
         pattern: 'pattern-ElectricalWires',
         model: {
-            obj: '',
-            mtl: ''
+            obj: 'Moon',
+            mtl: 'Moon'
         }
     },
     {
         entity: 'fire-panel',
         pattern: 'pattern-FirePanel',
         model: {
-            obj: '',
-            mtl: ''
+            obj: 'Moon',
+            mtl: 'Moon'
         }
     },
     {
         entity: 'fire-panel-controller',
         pattern: 'pattern-FirePanelController',
         model: {
-            obj: '',
-            mtl: ''
+            obj: 'Moon',
+            mtl: 'Moon'
         }
     },
     {
         entity: 'lan',
         pattern: 'pattern-LAN',
         model: {
-            obj: '',
-            mtl: ''
+            obj: 'Moon',
+            mtl: 'Moon'
         }
     },
     {
         entity: 'lights',
         pattern: 'pattern-Light',
         model: {
-            obj: '',
-            mtl: ''
+            obj: 'Moon',
+            mtl: 'Moon'
         }
     },
     {
         entity: 'light-sensor',
         pattern: 'pattern-LightSensor',
         model: {
-            obj: '',
-            mtl: ''
+            obj: 'Moon',
+            mtl: 'Moon'
         }
     },
     {
         entity: 'sprinkler',
         pattern: 'pattern-Sprinkler',
         model: {
-            obj: '',
-            mtl: ''
+            obj: 'Moon',
+            mtl: 'Moon'
         }
     }
 ]
