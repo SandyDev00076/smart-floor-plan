@@ -24,9 +24,7 @@
             ],
             "styles": [
               "src/styles.css"
-            ],
-            "scripts": ["https://aframe.io/releases/0.6.1/aframe.min.js", 
-              "https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"]
+            ]
           },
           "configurations": {
             "production": {

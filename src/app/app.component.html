@@ -8,7 +8,7 @@
   <button *ngIf="camera" class="btn btn-warning" (click)="endRecording()">End</button>
   <div class="cameraspace" *ngIf="camera">
     <a-scene embedded arjs="sourceType: webcam">
-      <a-marker *ngFor="let pattern of patternMap" type="pattern" preset="custom" url="../assets/patterns/pattern-Blinds.patt">
+      <a-marker *ngFor="let pattern of patternMap" type="pattern" preset="custom" url="getPatternPath(pattern.pattern);">
         <a-entity [obj-model]="getObjectModelPath(pattern)">
         </a-entity>
       </a-marker>
